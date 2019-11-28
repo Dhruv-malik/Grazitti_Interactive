@@ -1,4 +1,4 @@
 
-
-select * from github."user"
-where "user"."login" not in ('gitter-badger', 'web-flow')
+with Lead_data1 as (
+  select * from Lead_data
+  )
