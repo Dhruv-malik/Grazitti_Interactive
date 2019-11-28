@@ -12,4 +12,4 @@ models:
   tps_reporting:
     github:
       base:
-        materialized: event_email_summary
+        materialized: events
