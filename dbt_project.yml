@@ -1,9 +1,9 @@
 
 
-name: tps_reporting
+name: dbt_reporting
 version: 1.0
 
-profile: fishtown_analytics
+profile: grazitti_interactive
 
 source-paths: ["models"]
 target-path: "target"
@@ -12,4 +12,4 @@ models:
   tps_reporting:
     github:
       base:
-        materialized: ephemeral
+        materialized: event_email_summary
